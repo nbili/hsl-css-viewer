@@ -1,0 +1,72 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  min-width: 980px;
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.container {
+  padding: 5rem;
+  margin: 5rem auto;
+  width: 680px;
+  border: 1px solid;
+}
+
+.container .hsl {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.container .hsl .hue {
+  padding: 20px;
+  border: 1px solid sienna;
+}
+
+.container .hsl .hue .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .hsl .hue .info > label {
+  margin-bottom: 1rem;
+}
+
+.container .hsl .hue .info strong {
+  margin-right: 2rem;
+}
+
+.container .hsl .sl {
+  border: 1px solid wheat;
+  margin-left: auto;
+  padding: 20px;
+}
+
+.container .hsl .saturation {
+  margin-bottom: 3rem;
+}
+
+.container .hsl .lightness {
+  margin-bottom: 3rem;
+}
+
+.container .code {
+  display: flex;
+  align-items: center;
+}
+
+.container .code .box {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.container .code > pre {
+  flex: 1;
+}
